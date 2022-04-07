@@ -1,0 +1,180 @@
+.intro-body{
+    padding: 0;  
+    margin: 0;  
+    box-sizing: border-box; 
+ }
+ .index{
+ text-align: center;
+ height: 100vh;
+ width: 100vw;
+ background-color: rgb(0, 0, 0);  
+ display: table-cell;
+ vertical-align: middle;
+ }
+ .head{
+     color: rgb(255, 255, 255); 
+     padding: 20px;
+     margin: 20px;
+     font-size: 50px;
+     animation-delay: 0.5s;
+ }
+ .name{
+    color: rgb(255, 255, 255); 
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+    animation-delay: 1s;
+    margin-bottom: 20px;
+}
+
+button {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #e6dddd;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #c5b9b9;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 3.75em;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+   }
+   
+   button:disabled {
+    pointer-events: none;
+   }
+   
+   button:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   button:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
+* {
+    margin: 0;
+  }
+  body {
+    height: 100%;
+    font-size: 1.5em;
+    font-family: "HelveticaNeue", Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #222;
+  }
+  video{
+    width: 100vw;
+    height: 100vh;
+  }
+  .names{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .names>h2{
+    text-align: center;
+  }
+  html {
+    font-size: 12px;
+  }
+  .bg-image {
+    background-image: url(abdulkalam.webp);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #first-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .text-styling {
+    display: inline-block;
+    font-size: 6rem;
+    border: 1px solid rgb(255, 255, 255);
+    text-transform: uppercase;
+    width: 5%;
+    word-wrap: break-word;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+    margin: auto 10%;
+    text-align: center;
+  }
+  #second-div {
+    background-color: #fff;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  #second-div-text {
+    order: 1;
+    flex-grow: 1;
+    min-width: 30%;
+    margin-top: 25vh;
+    font-size: 2.3em;
+    font-family: "roboto", sans-serif;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25vh;
+  }
+  
+  #apj-quote {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #second-div-image {
+    order: 2;
+    flex-grow: 1;
+    min-width: 45%;
+    align-self: center;
+    max-width: 500px;
+    margin-right: 6%;
+  }
+  #apj-image {
+    max-width: 100%;
+    box-sizing: border-box;
+    float: right;
+  }
+  #third-div {
+    background-color: #000;
+    min-height: 100vh;
+  }
+  .container {
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 6% 1%;
+    color: #fff;
+    font-size: 1.8rem;
+  }
+  #author-text {
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 0.6vh;
+  }
